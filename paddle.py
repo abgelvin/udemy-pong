@@ -16,7 +16,7 @@ class Paddle(Turtle):
 
 
     def move_up(self):
-        new_y = self.ycor() + 20
+        new_y = self.ycor() + 30
         if new_y > 250:
             pass
         else:
@@ -24,7 +24,7 @@ class Paddle(Turtle):
 
 
     def move_down(self):
-        new_y = self.ycor() - 20
+        new_y = self.ycor() - 30
         if new_y < -250:
             pass
         else:
